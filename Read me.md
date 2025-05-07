@@ -1,31 +1,41 @@
-# Data Engineering Project in AWS
+# 🚀 Data Engineering Project in AWS
 
-## Overview
+## 🌍 Overview
 
-This project aims to securely manage, streamline, and perform analysis on the structured and semi-structured data.
+This project is designed to **securely manage, streamline, and analyze structured and semi-structured data** using modern cloud-based tools. It focuses on building scalable, reliable pipelines to handle data ingestion, transformation, storage, and querying — all within the AWS ecosystem.
 
-## Project Goals
+---
 
-- Data Ingestion — Build a mechanism to ingest data from different sources
-- ETL System — We are getting data in raw format, transforming this data into the proper format
-- Data lake — We will be getting data from multiple sources so we need centralized repo to store them
-- Scalability — As the size of our data increases, we need to make sure our system scales with it
-- Cloud — We can’t process vast amounts of data on our local computer so we need to use the cloud, in this case, we will use AWS
+## 🎯 Project Goals
 
-## Services we will be using
+✅ **Data Ingestion** — Build robust mechanisms to ingest data from diverse sources.  
+✅ **ETL System** — Transform raw CSV and JSON data into clean, structured formats ready for analysis.  
+✅ **Data Lake** — Centralize data from multiple sources using Amazon S3 for scalable storage.  
+✅ **Scalability** — Ensure the system grows effortlessly as data volume increases.  
+✅ **Cloud-first** — Leverage AWS cloud services to overcome local machine limitations and handle large-scale data efficiently.
 
-- Amazon S3
-- AWS IAM
-- AWS Glue
-- AWS Lambda
-- AWS Athena
+---
 
-## Dataset Used
+## ⚙️ AWS Services Used
 
-This Kaggle dataset contains statistics (CSV files) on daily popular YouTube videos over the course of many months. There are up to 200 trending videos published every day for many locations. The data for each region is in its own file. The video title, channel title, publication time, tags, views, likes and dislikes, description, and comment count are among the items included in the data. A category_id field, which differs by area, is also included in the JSON file linked to the region.
+- 🗂 **Amazon S3** — Data lake for centralized storage  
+- 🔐 **AWS IAM** — Secure access management and roles  
+- 🔄 **AWS Glue** — Serverless ETL service for data processing  
+- ⚡ **AWS Lambda** — Event-driven compute for automation  
+- 🔎 **AWS Athena** — Serverless SQL querying over S3 data
 
-## Architecture Diagram
+---
 
-<img src="architecture.jpeg">
+## 📦 Dataset Overview
 
-## Please click link below to see whole process illustrated and documented step by step
+We are using a **Kaggle dataset** containing daily trending YouTube video statistics across multiple countries and months.  
+Each region’s data is in its own CSV file and includes:  
+- Video title, channel title, publication time  
+- Tags, views, likes, dislikes, comment counts  
+- Descriptions and region-specific `category_id` (linked via a JSON mapping file)
+
+---
+
+## 🏗️ Architecture Diagram
+
+<img src="architec
