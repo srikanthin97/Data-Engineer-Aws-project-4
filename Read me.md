@@ -38,4 +38,4 @@ Each region’s data is in its own CSV file and includes:
 
 ## 🏗️ Architecture Diagram
 
-<img src="architec
+(architecture.jpeg)
